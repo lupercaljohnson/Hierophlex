@@ -1,0 +1,58 @@
+body{
+    background-color: #2C3531;
+    font-family: 'Audiowide', cursive;
+    color: #D1E8E2;
+}
+
+.jumbotron{
+    background-color: #116466;
+    text-align: center;
+}
+
+.navbar {
+    color: #D1E8E2 !important;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: double;
+    border-left-style: none;
+    border-color: #D1E8E2;
+}
+
+a{
+    color: #D1E8E2;
+}
+
+.navbar-dark{
+    color: #D1E8E2;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #D1E8E2 !important;
+}
+
+.navbar-dark .navbar-brand{
+    color: #D1E8E2 !important;
+}
+
+
+.card {
+    background-color: #116466;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+a:link {
+    color: #D1E8E2; 
+} 
+
+a:hover  {
+    color: #FFCB9A !important; 
+} 
+.navbar-dark:hover .navbar-nav:hover .nav-link:hover {
+    color: #FFCB9A !important; 
+}
+.navbar-dark:hover .navbar-brand:hover {
+    color: #FFCB9A !important; 
+}
