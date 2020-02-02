@@ -5,8 +5,13 @@ body{
 }
 
 .jumbotron{
-    background-color: #116466;
+    background: none;
     text-align: center;
+    
+}
+.display-4 {
+    font-size: 8rem;
+      text-shadow: 2px 2px 8px #2C3531;
 }
 
 .navbar {
@@ -55,4 +60,31 @@ a:hover  {
 }
 .navbar-dark:hover .navbar-brand:hover {
     color: #FFCB9A !important; 
+}
+
+#header {
+    position: relative;
+   /* background-image: url(https://f4.bcbits.com/img/a0117998545_10.jpg);*/
+    background-image: url("/img/backgroundsi.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #D1E8E2;
+    text-align: center;
+    padding: 7.5em 0 2em 0;
+    cursor: default;
+    height: 800px;
+}
+
+#footer {
+    position: relative;
+    overflow: hidden;
+    padding: 1em 0 1em 0;
+    background-color: #116466;
+    color: #D1E8E2;
+    margin-top: 5rem;
+}
+
+.footericon{
+    font-size: 4rem;
 }
