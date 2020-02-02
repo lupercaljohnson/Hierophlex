@@ -65,7 +65,7 @@ a:hover  {
 #header {
     position: relative;
    /* background-image: url(https://f4.bcbits.com/img/a0117998545_10.jpg);*/
-    background-image: url("/img/backgroundsi.jpg");
+    background-image: url("/IMG/backgroundsi.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
