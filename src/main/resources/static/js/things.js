@@ -1,2 +1,5 @@
-//$('#header').css('backgroundImage', 'url("http://localhost:8080/IMG/backgroundsi.jpg")');
-
+$(document).ready(function() {
+  $('.background-image').on('webkitAnimationEnd', function(e) {
+    $(this).addClass('visible');
+  });
+});

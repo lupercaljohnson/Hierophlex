@@ -13,48 +13,60 @@ and open the template in the editor.
     </head>
     <body>
         <div th:replace="fragments/layout :: navbar"></div>
-       
-      
 
-      
+
+        <div id="header">
+            <div class="jumbotron mt-3">
                 <div class="container">
-
-
-
-                    <div class="col d-flex justify-content-center">
-                        <h2>NEW ALBUM!</h2>
-                    </div>
-                    <div class="col d-flex justify-content-center">
-
-
-                        
-                    </div>
-
+                    <h1 class="display-4">ABOUT</h1>             
                 </div>
+            </div>
+        </div>
 
-                <div id="footer">
-                    <div class="container">
-                        <div class="col d-flex justify-content-center">
-                            <p> Testi teksti</p>
-                        </div>
-                        <div class="col d-flex justify-content-center">
+        <div class="container mt-5">
 
-                            <div class="footericon">
-                                <i class="fas fa-headphones-alt"></i>
-                               <i class="fas fa-music"></i>
-                               <a href="https://soundcloud.com/hierophlex" ><i class="fab fa-soundcloud"></i></a>
-                                
 
-                            </div>
-                        </div>
+
+            <div class="col d-flex flex-column justify-content-center">
+                <h2>Yar Pirate Ipsum!</h2>
+           
+
+                <p>
+                    Gally grog hornswaggle American Main blow the man down loaded to the gunwalls jack square-rigged yardarm bilge Pirate Round port keel Arr lookout transom list Admiral of the Black six pounders capstan. Holystone fathom Cat o'nine tails me clap of thunder spanker cutlass Corsair galleon Yellow Jack ahoy swab draught killick ballast yawl plunder gangway knave spike.
+                </p>
+                <p>
+                    Plunder spike driver bring a spring upon her cable ballast barkadeer squiffy knave ahoy wherry sutler swing the lead topgallant maroon snow furl dance the hempen jig list ye to go on account. Doubloon lass take a caulk scallywag spike gabion brigantine draft nipper cutlass spanker hornswaggle clipper dance the hempen jig line grapple prow Jolly Roger pillage quarterdeck.
+                </p>
+
+
+
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <div class="container">
+                <div class="col d-flex justify-content-center">
+                    <p> Testi teksti</p>
+                </div>
+                <div class="col d-flex justify-content-center">
+
+                    <div class="footericon">
+                        <i class="fas fa-headphones-alt"></i>
+                        <i class="fas fa-music"></i>
+                        <a href="https://soundcloud.com/hierophlex" ><i class="fab fa-soundcloud"></i></a>
+
+
                     </div>
-                    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-                        <a href="https://tpremes.herokuapp.com/"> TPRemes/Magistrum</a>
-                    </div>
-                </div>        
-                <!-- Copyright -->
+                </div>
+            </div>
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="https://tpremes.herokuapp.com/"> TPRemes/Magistrum</a>
+            </div>
+        </div>        
+        <!-- Copyright -->
 
-                <!-- Copyright -->
-                <div th:replace="fragments/layout :: scipt"></div>
-                </body>
-                </html>
+        <!-- Copyright -->
+        <div th:replace="fragments/layout :: scipt"></div>
+    </body>
+</html>

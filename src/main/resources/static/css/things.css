@@ -1,3 +1,35 @@
+@-webkit-keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.background-image {
+  background: url("/IMG/backgroundsi.jpg") no-repeat center center fixed;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+  opacity: 0;
+  
+  -webkit-animation-name: fade-in;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 0.5s;
+}
+
+.background-image.visible {
+  opacity: 1;
+}
+
 body{
     background-color: #2C3531;
     font-family: 'Audiowide', cursive;
@@ -73,8 +105,8 @@ a:hover  {
     text-align: center;
     padding: 7.5em 0 2em 0;
     cursor: default;
-    height: 800px;
-    transition: opacity 1s ease-in-out;
+    height: 400px;
+   
 }
 
 #footer {
@@ -88,4 +120,12 @@ a:hover  {
 
 .footericon{
     font-size: 4rem;
+}
+
+.massivemargin{
+    margin-top: 500px;
+}
+
+.orange {
+    color: #FFCB9A;
 }
