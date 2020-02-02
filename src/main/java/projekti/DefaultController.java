@@ -8,8 +8,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class DefaultController {
 
     @GetMapping("*")
-    public String helloWorld(Model model) {
+    public String getDefault(Model model) {
         model.addAttribute("message", "World!");
         return "index";
+    }
+    @GetMapping("/about")
+    public String getAbout(Model model) {
+        model.addAttribute("message", "World!");
+        return "about";
     }
 }
