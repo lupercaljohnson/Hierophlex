@@ -15,14 +15,22 @@ and open the template in the editor.
         <div th:replace="fragments/layout :: navbar"></div>
 
 
-        <div id="header">
+        <div id="header" class="d-block d-lg-none">
+            <div class="jumbotron mt-3">
+                <div class="container">
+                    <h1>ABOUT</h1>             
+                </div>
+            </div>
+        </div>
+        
+        <div id="header" class="d-none d-lg-block">
             <div class="jumbotron mt-3">
                 <div class="container">
                     <h1 class="display-4">ABOUT</h1>             
                 </div>
             </div>
         </div>
-
+        
         <div class="container mt-5">
 
 
